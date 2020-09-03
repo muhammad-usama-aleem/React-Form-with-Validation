@@ -51,7 +51,7 @@ const App = () => {
         value={formik.values.firstName}
       />
       {formik.touched.firstName && formik.errors.firstName ? (
-        <div>{formik.errors.firstName}</div>
+        <div className="errorwarning">{formik.errors.firstName}</div>
       ) : null}
       <label htmlFor="lastName">Last Name</label>
       <input
@@ -63,7 +63,7 @@ const App = () => {
         value={formik.values.lastName}
       />
       {formik.touched.lastName && formik.errors.lastName ? (
-        <div>{formik.errors.lastName}</div>
+        <div className="errorwarning">{formik.errors.lastName}</div>
       ) : null}
       <label htmlFor="email">Email Address</label>
       <input
@@ -75,7 +75,7 @@ const App = () => {
         value={formik.values.email}
       />
       {formik.touched.email && formik.errors.email ? (
-        <div>{formik.errors.email}</div>
+        <div className="errorwarning">{formik.errors.email}</div>
       ) : null}
       <button type="submit">Submit</button>
     </form>
