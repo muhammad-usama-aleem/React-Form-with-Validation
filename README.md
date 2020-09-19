@@ -9,4 +9,4 @@ Features of this projects are: <br/>
 
 <br/>
 the final view will look like this:<br/>
-![](https://github.com/muhammad-usama-aleem/React-Form-with-Validation/blob/master/img.png?raw=true)
+![](img.png)
